@@ -71,3 +71,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Environmental variables
+
+This project is a server-side application for server-sent events. Please add a `.env` file to the sse-server folder, which contains the environment variable `OPENAI_API_KEY`. Fill in your OpenAI API key.
