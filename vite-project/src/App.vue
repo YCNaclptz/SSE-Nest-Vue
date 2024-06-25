@@ -15,20 +15,20 @@ export default {
 <template>
 
   <!-- <ContenteditableIframe ></ContenteditableIframe> -->
-  <SendSSE></SendSSE>
+  <div id="message-area">
+    <SendSSE></SendSSE>
+  </div>
+
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+#message-area{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  background: #30384491;
+  margin: 0 auto;
+  padding: 1rem;
 }
 </style>

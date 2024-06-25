@@ -18,7 +18,7 @@ export class AppController {
   sendEvent(): Observable<MessageEvent>{
     return interval(1000).pipe(
       map((num: number) => ({
-        data: `hello ${num}`,
+        data: `${num}`,
       }))
     )
   }

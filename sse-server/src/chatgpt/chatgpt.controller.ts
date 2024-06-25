@@ -22,6 +22,7 @@ export class ChatgptController {
       await this.chatGptService.sleep(20);
     }
 
+    res.write('data: undefined\n\n');
     res.end();
   }
 }
